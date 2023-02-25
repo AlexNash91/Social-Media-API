@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 const reactionSchema = new mongoose.Schema({
-    reactionId: 
+    reactionId: {type: mongoose.Types.ObjectId, default: new ObjectId},
     reactionBody: {type: String, required: true},
     username: {type: String, required: true},
-    createdAt:
+    createdAt: {type: Date, default: Date.now}
 })
