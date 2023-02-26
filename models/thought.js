@@ -7,4 +7,8 @@ const thoughtSchema = new mongoose.Schema({
     reactions: [String]
 })
 
+thoughtSchema.virtual('reactionCount').get(function() {
+    return this.reactions.length
+})
+
 module.exports('Thoughts', thoughtSchema)
