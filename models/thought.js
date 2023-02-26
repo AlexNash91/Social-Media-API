@@ -4,5 +4,7 @@ const thoughtSchema = new mongoose.Schema({
     thoughtText: { type: String, required: true, minLength: 1, maxLength: 280},
     createdAt: {type: Date},
     username: {type: String, required: true},
-    reactions: 
+    reactions: [String]
 })
+
+module.exports('Thoughts', thoughtSchema)
