@@ -1,4 +1,4 @@
-const { Thoughts, User} = require('../models')
+const { Thoughts, User } = require('../models')
 
 module.exports = {
     getAllThoughts(req, res) {
@@ -22,5 +22,5 @@ module.exports = {
     deleteReaction(req, res) {
 
     }
-    
+
 };
