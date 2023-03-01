@@ -1,7 +1,7 @@
 {
   "name": "Social-Media-API",
   "version": "1.0.1",
-  "description": "Instructor demo for CRUD operations in Mongoose on subdocuments",
+  "description": "API for a social media network",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
