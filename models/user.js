@@ -11,6 +11,6 @@ userSchema.virtual('friendCount').get(function() {
     return friends.length
 })
 
-const User = nodel('User', userSchema)
+const User = model('User', userSchema)
 
 module.exports = User;
