@@ -7,3 +7,6 @@ well as thoughts and reactions.
 
 ## Usage
 The API is best viewed in insomnia or some other API software. 
+
+## Links
+[Github](https://github.com/AlexNash91/Social-Media-API)
