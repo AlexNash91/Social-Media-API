@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const reactionSchema = require('./reaction')
+const reactionSchema = require('./Reaction')
 const dateFormat = require('../utils/dateFormat')
 
 
